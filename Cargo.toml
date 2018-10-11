@@ -1,0 +1,11 @@
+cargo-features = ["edition"]
+
+[package]
+name = "runshader"
+version = "0.1.0"
+authors = ["Oliver Bøving <oliverboving@gmail.com>"]
+edition = "2018"
+
+[dependencies]
+gl = "*"
+glutin = "*"
